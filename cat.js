@@ -6,6 +6,7 @@ function cat(fileName) {
       throw err;
     }
     process.stdout.write(data);
+    process.stdout.write('\nprompt > ');
   });
 }
 
